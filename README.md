@@ -7,16 +7,16 @@ This project was created to practice Python development, specifically working wi
 ## Commands
 
 ### cm  - create map (folder)
-cf  - create file
-sf  - show file (map name)0
-saf - show all folders (Warning: scans whole drive)
-rm  - remove [name]
-update - update a zerminal0
-nup - over update
-si - system info
-read - read text file0
-exit - close terminal
-vlc -  vlc (video name)
+### cf  - create file
+### sf  - show file (map name)0
+### saf - show all folders (Warning: scans whole drive)
+### rm  - remove [name]
+### update - update a zerminal0
+### nup - over update
+### si - system info
+### read - read text file0
+###exit - close terminal
+### vlc -  vlc (video name)
 
 ## Installation & Usage
 
