@@ -21,6 +21,12 @@ This project was created to practice Python development, specifically working wi
 ## Screen Shot
 <img width="1096" height="439" alt="image" src="https://github.com/user-attachments/assets/640e6f54-f537-4cd0-899e-ccdf1e35056d" />
 
+## Requirements:
+
+ ## Python 3.x
+
+ ## VLC media player installed on your system.
+
 ## Installation & Usage
 
 1. **Clone the repository:**
