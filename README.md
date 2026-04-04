@@ -23,9 +23,9 @@ This project was created to practice Python development, specifically working wi
 
 ## Requirements:
 
- ## Python 3.x
+ ### Python 3.x
 
- ## VLC media player installed on your system.
+ ### VLC media player installed on your system.
 
 ## Installation & Usage
 
