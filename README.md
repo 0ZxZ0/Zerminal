@@ -15,7 +15,7 @@ This project was created to practice Python development, specifically working wi
 ### nup - over update
 ### si - system info
 ### read - read text file0
-###exit - close terminal
+### exit - close terminal
 ### vlc -  vlc (video name)
 
 ## Installation & Usage
