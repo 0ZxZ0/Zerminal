@@ -6,7 +6,7 @@ import sys
 import platform
 import subprocess
 from datetime import datetime
-import pyfiglet
+import vlc
 
 def main():
     print("--Zerminal--")
@@ -35,7 +35,10 @@ def main():
             print("si - system info")
             print("read - read text file0")
             print("exit - close terminal")
+            print("vlc -  vlc (video name)")
             
+        elif command == "vlc":
+            vlc (args)
         elif command == "nup":
             print("Update version - 0.0.1")
             print("new command")
@@ -66,6 +69,41 @@ def main():
             break
         else:
             print(f"Unknown command: '{command}'. Type 'help' for list of commands.")
+
+def vlc (args):
+    if not args:
+        print("Usage: vlc [filename.mp4]")
+        return
+
+    video_name = args[0]
+
+    if not video_name.endswith(".mp4"):
+        video_name += ".mp4"
+
+    print(f"Searching for '{video_name}' across the system... Please wait.")
+
+    search_root = os.path.expanduser("~")
+
+    found_path = None
+
+    try:
+        for root, dirs, files in os.walk(search_root):
+            if video_name in files:
+                found_path = os.path.join(root, video_name)
+                break # Нашли первый попавшийся и выходим из цикла
+    except KeyboardInterrupt:
+        print("\nSearch stopped by user.")
+        return
+
+    if found_path:
+        print(f"Found! Path: {found_path}")
+        print("Launching VLC...")
+        try:
+            subprocess.Popen(["vlc", found_path], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        except FileNotFoundError:
+            print("Error: VLC is not installed. Run 'sudo apt install vlc'")
+    else:
+        print(f"File '{video_name}' not found in {search_root}")
 
 def remove_item(args):
     if not args:
