@@ -1,0 +1,10 @@
+whats on update 0.0.3
+
+MiniOS - secret
+update vlc
+update file manager
+redact file
+test file
+
+big update
+create C++ or Rust file to redact video
