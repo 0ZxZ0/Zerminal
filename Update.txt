@@ -1,4 +1,4 @@
-whats on update 0.0.3
+whats on update 0.0.3 (7-8 april)
 
 MiniOS - secret
 update vlc
@@ -6,5 +6,10 @@ update file manager
 redact file
 test file
 
+0.04
+bug fix
+ClI and Window manaer(you can swith)
+
+0.0.5
 big update
 create C++ or Rust file to redact video
