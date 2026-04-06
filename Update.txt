@@ -1,4 +1,4 @@
-whats on update 0.0.3 (7-8 april)
+whats on update 0.0.3(done)
 
 MiniOS - secret
 update vlc
