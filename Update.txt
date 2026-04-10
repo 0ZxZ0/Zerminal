@@ -13,3 +13,7 @@ ClI and Window manaer(you can swith)
 0.0.5
 big update
 create C++ or Rust file to redact video
+Zerminal version:
+version C++ (better)
+version Python (fewer updates and slow speed)
+wait for android:)
